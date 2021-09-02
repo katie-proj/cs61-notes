@@ -2,6 +2,7 @@
 
 ## Outline
 1. Data Representation
+2. Assembly
 3. Storage & caching
 4. Kernel programming
 5. Process management
