@@ -26,3 +26,6 @@ std::library stuff
 - atomic for single ints that are simply incremented
 
 Goal: want to block in pset, not polling
+
+# Blocking
+- look for places that are polling (while loop that keeps checking for a condtion --> use conditional variable instead to only try acquiring lock when notify_all signal is received)
